@@ -11,7 +11,7 @@ def permutations(s):
                 s += k
             if s not in result:
                 result.append(s)
-        a -= 1
+        a += 1
     return result
 
 
